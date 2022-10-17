@@ -33,3 +33,8 @@ function showInfoPage(page) {
 
     return;
 }
+
+const auto = document.getElementById("autoplay");
+auto.oncanplaythrough = function () {
+    auto.play();
+}
