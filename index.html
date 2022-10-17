@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="src/css/roll.css">
+    <title>Profile</title>
+</head>
+
+<body>
+    <main class="card">
+        <div class="my-information">
+            <img src="./src/img/profile.jpg" alt="foto-perfil">
+            <h1 class="name">Maicon Colucci</h1>
+            <h2 class="job">Desenvolvedor Frontend</h2>
+        </div>
+
+        <div class="content">
+            <ul class="pages">
+                <li class="page selected"  id="about-me">
+                    <img src="./src/img/sobre.gif" alt="sobre">
+                </li>
+                <li class="page" id="my-network">
+                    <img src="./src/img/coracao.gif" alt="coracao">
+                </li>
+            </ul>
+
+            <div class="information-pages">
+                <div class="information selected" id="info-about-me">
+                    <h3 class="subtitle">Sobre</h3>
+                    <div class="description">
+                        <p>Oi! meu nome é Maicon Colucci, seja bem-vindo(a)!</p>
+
+                        <p>Apaixonado por tecnologia desde de muito cedo, comecei a criar jogos como pontapé inicial,
+                            porém me apaixonei pela programação web e atualmente possuo conhecimento em 
+                            <span>HTML, CSS, JavaScript, ReactJs e MySQL.</span> Além claro de continuar me aprofundando cada vez mais
+                            no desenvolvimento Front-end. Gosto muito de passar meu tempo livre jogando e assistindo animes.
+                        </p>
+                    </div>
+                </div>
+                <div class="information" id="info-my-network">
+                    <h3 class="subtitle">Minhas redes</h3>
+                    <ul class="socials">
+                        <li>
+                            <a href="#" target="_blank" class="curriculo">Currículo</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/maicon-c-35035b132/" target="_blank" class="linkedin">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/milugarco" target="_blank" class="github">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <audio autoplay loop hidden>
+            <source src="./src/audio/audio.mp3">
+        </audio>
+    </main>
+</body>
+<script src="./src/js/index.js"></script>
+</html>
